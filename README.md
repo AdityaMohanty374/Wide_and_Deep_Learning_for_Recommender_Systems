@@ -1,7 +1,7 @@
 # **Wide & Deep Learning for E-commerce Recommendations**
 Implementation of Google's Wide & Deep neural architecture for large-scale product recommendations using PyTorch. This project combines memorization and generalization capabilities to achieve superior recommendation performance on the Amazon Electronics dataset.
 ## Results Summary
-![results](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/model_evaluation_results.png?raw=true)
+![results](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/png/model_evaluation_results.png?raw=true)
 
 ## Key Performance Metrics
 
@@ -19,9 +19,9 @@ Unique Products: 63,000+
 Dataset: Amazon Electronics Reviews
 
 ## Architecture Overview
-![architecture](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/architecture.png?raw=true)
+![architecture](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/png/architecture.png?raw=true)
 
-![model](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/Model%20Structure.png?raw=true)
+![model](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/png/Model%20Structure.png?raw=true)
 
 ### Wide Component
 
