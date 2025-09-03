@@ -40,15 +40,17 @@ Combined sigmoid output for binary classification
 ## Project Structure
 ```
 wide-deep-recommender/
-├── amazon_preprocessing.py      # Data preprocessing pipeline
-├── wide_deep_model.py          # Model architecture and training
-├── model_evaluation.py         # Comprehensive evaluation
-├── processed_data/             # Processed datasets
+├── amazon_dataset_preprocessing.py      # Data preprocessing pipeline
+├── wide_deep_model.py                   # Model architecture and training
+├── model_evaluation_script.py           # Comprehensive evaluation
+├── processed_data/                      # Processed datasets
 │   ├── processed_reviews.parquet
 │   └── vocabularies.pkl
-├── best_wide_deep_model.pt     # Trained model weights
-├── results.png                 # Evaluation visualizations
-└── README.md
+├── best_wide_deep_model.pt              # Trained model weights
+├── model_evaluation_results.png         # Evaluation visualizations
+├── README.md
+├─reviews_Electronics_5.json             # raw dataset
+└──TrainingModel_results.pdf             # training results on training the model
 ```
 ## Features Engineered
 ### Deep Component Features
@@ -81,7 +83,7 @@ Requirements
 ## Model Performance
 MetricValueImprovementAUC0.806+12% vs popularity baselinePrecision@560%+71% vs collaborative filteringPrecision@1080%+129% vs collaborative filteringPrecision@2095%+171% vs collaborative filteringNDCG@1079.5%+32% vs simple rankingCoverage99.3%+40-60% vs typical systems
 ## Business Impact
-Revenue Potential
+### Revenue Potential
 
 Recommendation systems drive 35% of e-commerce revenue
 80% precision@10 indicates high conversion potential
@@ -99,8 +101,8 @@ Handles 1.3M+ interactions efficiently
 Optimized embedding dimensions for memory efficiency
 Production-ready architecture with joint training
 
-Implementation Highlights
-Data Engineering
+## Implementation Highlights
+### Data Engineering
 
 5-core filtering for data quality
 Comprehensive feature engineering pipeline
