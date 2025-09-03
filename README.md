@@ -126,9 +126,13 @@ Baseline comparison framework
 ## Technical Stack
 
 Framework: PyTorch
+
 Data Processing: pandas, NumPy
+
 Evaluation: scikit-learn
+
 Visualization: matplotlib, seaborn
+
 Storage: Parquet (efficient columnar storage)
 
 ## Key Learnings
