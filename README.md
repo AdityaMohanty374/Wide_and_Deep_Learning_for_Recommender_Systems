@@ -19,6 +19,10 @@ Unique Products: 63,000+
 Dataset: Amazon Electronics Reviews
 
 ## Architecture Overview
+![architecture](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/architecture.png?raw=true)
+
+![model](https://github.com/AdityaMohanty374/Wide_and_Deep_Learning_for_Recommender_Systems/blob/main/Model%20Structure.png?raw=true)
+
 ### Wide Component
 
 Generalized linear model with cross-product feature transformations
